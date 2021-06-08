@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+
+    <!--FavIcon-->
+    <link rel="shortcut icon" href="images/Favicon/favicon1.ico" type="image/x-icon">
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!--Owl Carousel-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font Style-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Raleway&family=Rubik&display=swap" rel="stylesheet">
+
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+
+    <style>
+        #footer .fab{
+            font-size: 20px;
+            margin-right: 10px;
+        }
+        #footer .fas{
+            font-size: 20px;
+            margin-right: 10px;
+        }
+        #footer .fab:hover, .fas:hover{
+            transform: scale(1.2);
+        }
+        @media screen and (min-width: 2px) {
+            .strip .hide p
+            {
+            display: none;
+            }
+        }
+        @media screen and (min-width: 900px) {
+            .strip .hide p
+            {
+            display: block;
+            }
+        }
+    </style>
+    
+</head>
+<body>
+
+    <!--Header-->
+    <header id="header">
+        <div class="strip py-1 container-fluid" style="background-color: white; color: #00A5C4;">
+            <div class="row">
+                <div class="col-md-2 col-12">
+                    <a class="navbar-brand ml-2" href="#">Mobile Shop</a>
+                </div>
+                <div class="col-md-5 hide col-12 d-flex justify-content-end">
+                    <p class="mt-2"><i class="fa fa-phone mr-2"></i>(+92)3005271950 <i class="fas fa-envelope-open ml-3 mr-2"></i> sajjadakhtar975@gmail.com</p>
+                </div>
+                <div class="col-md-5 col-12 d-flex justify-content-md-end pt-2">
+                    <i class="fas fa-user"></i>
+                    <a href="newLogin.html" style="text-decoration: none" class="px-2 dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >Account </a>
+                    <div class="dropdown-menu p-0" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item border-bottom" href="newLogin.html"><i class="fas fa-user mr-2"></i>Login</a>
+                        <a class="dropdown-item" href="signUp.html"><i class="fas fa-user-circle mr-2" ></i>Create Account</a>
+                    </div>
+                    <a href="#" style="text-decoration: none; color: white;" class="px-3">Whishlist (0)</a>
+                </div>
+            </div>
+            
+            
+            <!-- <div class="mt-2">
+                
+            </div> -->
+        </div>
+
+        <!--Primary Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #00A5C4;">
+            <div class="container-fluid">
+              <a class="navbar-brand" style="color: white;" href="#">Mobile Shop</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav m-auto" style="font-family: 'Rubik', sans-serif;">
+                  <li class="nav-item">
+                    <a class="nav-link active text-danger" href="index.html"><i class="fas fa-home mr-2"></i>Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="blog.html">Blogs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="About.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="contact.html">Contact Us</a>
+                  </li>
+                </ul>
+                <form action="" style="font-size: 14px; font-family: 'Raleway', sans-serif;">
+                    <a href="#" class="py-2 rounded-pill" style="background-color: #003859;">
+                        <span class="px-2 text-white" style="font-size: 16px;"><i class="fas fa-shopping-cart"></i></span>
+                        <span class="px-3 py-2 rounded-pill text-dark bg-light">0</span>
+                    </a>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <!--Main-->
+    <main id="main-site">
+        <!--Product-->
+        <section id="product" class="py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="images/products/New folder/1.png" alt="" class="img-fluid">
+                        <div class="form-row pt-4" style="font-size: 16px; font-family: 'Baloo 2', cursive;">
+                            <div class="col">
+                                <button type="submit" class="btn btn-danger form-control">Proceed to Buy</button>
+                            </div>
+                            <div class="col">
+                                <button type="submit" class="btn btn-warning form-control">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 py-5">
+                        <h5 style="font-size: 20px; font-family: 'Baloo 2', cursive;">Samsung Galaxy 10</h5>
+                        <small>by Samsung</small>
+                        <div class="d-flex">
+                            <div class="rating text-warning" style="font-size: 12px;">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                            </div>
+                            <a href="#" class="px-2" style="font-size: 14px; font-family: 'Raleway', sans-serif;">20,534 ratings | 1000+ answered questions</a>
+                        </div>
+                        <hr class="m-0">
+
+                        <!--Product Price-->
+                        <table class="my-3">
+                            <tr style="font-size: 14px; font-family: 'Raleway', sans-serif;">
+                                <td>M.R.P:</td>
+                                <td><strike>$162.00</strike></td>
+                            </tr>
+                            <tr style="font-size: 14px; font-family: 'Raleway', sans-serif;">
+                                <td>Deal Price:</td>
+                                <td style= "font-size: 20px;"><span class="text-danger">$152.00</span>&nbsp;&nbsp; <small class="test-dark" style="font-size: 12px;">Inclusive of all taxes</small></td>
+                            </tr>
+                            <tr style="font-size: 14px; font-family: 'Raleway', sans-serif;">
+                                <td>You Save:</td>
+                                <td><span class="text-danger" style="font-size: 16px;">$152.00</span></td>
+                            </tr>
+                        </table>
+
+                        <!--Policy-->
+                        <div id="policy">
+                            <div class="d-flex">
+                                <div class="return text-center mr-5">
+                                    <div class="my-2" style="font-size: 20px; color: #00A5C4;">
+                                        <span class="fas fa-retweet border p-3 rounded-pill"></span>
+                                    </div>
+                                    <a href="#" style="font-size: 12px; font-family: 'Raleway', sans-serif;">10 Days <br> Replacement</a>
+                                </div>
+                                <div class="return text-center mr-5">
+                                    <div class="my-2" style="font-size: 20px; color: #00A5C4;">
+                                        <span class="fas fa-truck border p-3 rounded-pill"></span>
+                                    </div>
+                                    <a href="#" style="font-size: 12px; font-family: 'Raleway', sans-serif;">Daily Tuition <br> Deliverd</a>
+                                </div>
+                                <div class="return text-center mr-5">
+                                    <div class="my-2" style="font-size: 20px; color: #00A5C4;">
+                                        <span class="fas fa-check-double border p-3 rounded-pill"></span>
+                                    </div>
+                                    <a href="#" style="font-size: 12px; font-family: 'Raleway', sans-serif;">1 Year <br>Warranty</a>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+
+                        <!--Order Detail-->
+                        <div id="order-details" class="d-flex flex-column text-dark" style="font-family: 'Raleway', sans-serif;">
+                            <small>Delivery By: Mar 29 - Apr 1</small>
+                            <small>Sold By <a href="">Sajjad Akhtar</a> (4.5 out of 5 | 18,198 ratings)</small>
+                            <small><i class="fas fa-map-marker-alt" style="color: #003859;"></i>&nbsp;&nbsp; Deliver to Customer - 424201</small>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 col-12">
+                                <!--Color-->
+                                <div class="color my-3">
+                                    <div class="d-flex justify-content-between">
+                                        <h6 style="font-family: 'Baloo 2', cursive;">Color:</h6>
+                                        <div class="p-2 rounded-circle" style="background-color: #FFD289;"><button class="btn" style="font-size: 14px;"></button></div>
+                                        <div class="p-2 rounded-circle" style="background-color: #003859;"><button class="btn" style="font-size: 14px;"></button></div>
+                                        <div class="p-2 rounded-circle" style="background-color: #00A5C4;"><button class="btn" style="font-size: 14px;"></button></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="qty d-flex">
+                                    <h6 style="font-family: 'Baloo 2', cursive;">Qty</h6>
+                                    <div class="px-4 d-flex" style="font-family: 'Raleway', sans-serif;">
+                                        <button data-id = pro1 class="qty-up border bg-light"><i class="fas fa-angle-up"></i></button>
+                                        <input data-id = pro1 type="text" class="qty-input border px-2 w-50 bg-light" disabled value="1" placeholder="1">
+                                        <button data-id = pro1 class="qty-down border bg-light"><i class="fas fa-angle-down"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Size-->
+                        <div class="size my-3">
+                            <h6 style="font-family: 'Baloo 2', cursive;">Size</h6>
+                            <div class="d-flex justify-content-between w-75">
+                                <div class="border p-2" style="font-family: 'Rubik', sans-serif;">
+                                    <button class="btn p-0" style="font-size: 14px;">4GB RAm</button>
+                                </div>
+                                <div class="border p-2" style="font-family: 'Rubik', sans-serif;">
+                                    <button class="btn p-0" style="font-size: 14px;">6GB RAm</button>
+                                </div>
+                                <div class="border p-2" style="font-family: 'Rubik', sans-serif;">
+                                    <button class="btn p-0" style="font-size: 14px;">8GB RAm</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <h6 style="font-family: 'Rubik', sans-serif;">Product Description</h6>
+                        <hr>
+                        <p style="font-size: 14px; font-family: 'Raleway', sans-serif;">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, eum. Suscipit est voluptates minus optio consequuntur quibusdam, vel enim facilis laborum? Ipsam saepe, tenetur obcaecati non numquam veritatis exercitationem ut? Laborum quo doloremque earum deserunt officiis placeat nesciunt animi distinctio ipsum reiciendis recusandae, pariatur odio nobis dicta molestiae ut voluptatum.
+                        </p>
+                        <p style="font-size: 14px; font-family: 'Raleway', sans-serif;">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, eum. Suscipit est voluptates minus optio consequuntur quibusdam, vel enim facilis laborum? Ipsam saepe, tenetur obcaecati non numquam veritatis exercitationem ut? Laborum quo doloremque earum deserunt officiis placeat nesciunt animi distinctio ipsum reiciendis recusandae, pariatur odio nobis dicta molestiae ut voluptatum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Top Sale-->
+        <section id="top-sale">
+            <div class="container py-5">
+                <h4 style="font-size: 20px; font-family: 'Rubik', sans-serif;">Top Sale</h4>
+                <hr>
+                <!--Owl Carousel-->
+                <div class="owl-carousel owl-theme">
+                    <div class="item py-2">
+                        <div class="product" style="font-family: 'Raleway', sans-serif;">
+                            <a href="#"><img src="images/products/New folder/1.png" class="img-fluid" alt=""></a>
+                            <div class="text-center">
+                                <h6>Samsung Galaxy 10</h6>
+                                <div class="rating text-warning" style="font-size: 12px;">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                                <div class="price py-2">
+                                    <span>$152</span>
+                                </div>
+                                <button type="submit" class="btn btn-warning" style="font-size: 12px;">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item py-2">
+                        <div class="product" style="font-family: 'Raleway', sans-serif;">
+                            <a href="#"><img src="images/products/New folder/2.png" class="img-fluid" alt=""></a>
+                            <div class="text-center">
+                                <h6>Redme Note 7</h6>
+                                <div class="rating text-warning" style="font-size: 12px;">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                                <div class="price py-2">
+                                    <span>$152</span>
+                                </div>
+                                <button type="submit" class="btn btn-warning" style="font-size: 12px;">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item py-2">
+                        <div class="product" style="font-family: 'Raleway', sans-serif;">
+                            <a href="#"><img src="images/products/New folder/3.png" class="img-fluid" alt=""></a>
+                            <div class="text-center">
+                                <h6>Samsung Galaxy 10</h6>
+                                <div class="rating text-warning" style="font-size: 12px;">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                                <div class="price py-2">
+                                    <span>$152</span>
+                                </div>
+                                <button type="submit" class="btn btn-warning" style="font-size: 12px;">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item py-2">
+                        <div class="product" style="font-family: 'Raleway', sans-serif;">
+                            <a href="#"><img src="images/products/New folder/4.png" class="img-fluid" alt=""></a>
+                            <div class="text-center">
+                                <h6>Samsung Galaxy 10</h6>
+                                <div class="rating text-warning" style="font-size: 12px;">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                                <div class="price py-2">
+                                    <span>$152</span>
+                                </div>
+                                <button type="submit" class="btn btn-warning" style="font-size: 12px;">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item py-2">
+                        <div class="product" style="font-family: 'Raleway', sans-serif;">
+                            <a href="#"><img src="images/products/New folder/5.png" class="img-fluid" alt=""></a>
+                            <div class="text-center">
+                                <h6>Samsung Galaxy 10</h6>
+                                <div class="rating text-warning" style="font-size: 12px;">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                                <div class="price py-2">
+                                    <span>$152</span>
+                                </div>
+                                <button type="submit" class="btn btn-warning" style="font-size: 12px;">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item py-2">
+                        <div class="product" style="font-family: 'Raleway', sans-serif;">
+                            <a href="#"><img src="images/products/New folder/6.png" class="img-fluid" alt=""></a>
+                            <div class="text-center">
+                                <h6>Samsung Galaxy 10</h6>
+                                <div class="rating text-warning" style="font-size: 12px;">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                                <div class="price py-2">
+                                    <span>$152</span>
+                                </div>
+                                <button type="submit" class="btn btn-warning" style="font-size: 12px;">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!--Footer-->
+    <footer id="footer" class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-12">
+                    <h4 style="font-size: 20px; font-family: 'Rubik', sans-serif;">Mobile Shop</h4>
+                    <p style="font-size: 14px; font-family: 'Raleway', sans-serif;" class="text-white-50">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, nobis.</p>
+                    <h5>Follow Us on</h5>
+                    <p>
+                        <span class="fab fa-facebook mr-2"></span>
+                        <span class="fab fa-instagram mr-2"></span>
+                        <span class="fab fa-linkedin mr-2"></span>
+                        <span class="fab fa-whatsapp mr-2"></span>
+                        <span class="fas fa-envelope"></span>
+                    </p>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <h4 style="font-size: 20px; font-family: 'Rubik', sans-serif;">NewsLatter</h4>
+                    <form action="" class="form-row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Email" required>
+                        </div>
+                        <div class="col">
+                            <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-2 col-12">
+                    <h4 style="font-size: 20px; font-family: 'Rubik', sans-serif;">Information</h4>
+                    <div class="d-flex flex-column flex-wrap">
+                        <a href="#" style="font-size: 14px; font-family: 'Raleway', sans-serif;" class="text-white-50 pb-1">About Us</a>
+                        <a href="#" style="font-size: 14px; font-family: 'Raleway', sans-serif;" class="text-white-50 pb-1">Delivery Information</a>
+                        <a href="#" style="font-size: 14px; font-family: 'Raleway', sans-serif;" class="text-white-50 pb-1">Privacy Policy</a>
+                        <a href="#" style="font-size: 14px; font-family: 'Raleway', sans-serif;" class="text-white-50 pb-1">Terms & Conditions</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-12">
+                    <h4 style="font-size: 20px; font-family: 'Rubik', sans-serif;">Account</h4>
+                    <div class="d-flex flex-column flex-wrap">
+                        <a href="#" style="font-size: 14px; font-family: 'Raleway', sans-serif;" class="text-white-50 pb-1">My Account</a>
+                        <a href="#" style="font-size: 14px; font-family: 'Raleway', sans-serif;" class="text-white-50 pb-1">Order History</a>
+                        <a href="#" style="font-size: 14px; font-family: 'Raleway', sans-serif;" class="text-white-50 pb-1">WhishList</a>
+                        <a href="#" style="font-size: 14px; font-family: 'Raleway', sans-serif;" class="text-white-50 pb-1">NewsLatter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--CopyRight-->
+    <div class="copyright text-center bg-dark py-2 text-white">
+        <p style="font-size: 14px; font-family: 'Raleway', sans-serif;">&copy; Copyrights 2020 Design By <a href="#" style="color: #00A5C4;">Sajjad Akhtar</a></p>
+    </div>
+
+    <!--Owl Carousel-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+   
+    <script>       
+        $('#top-sale .owl-carousel').owlCarousel({
+            loop:true,
+            nav:true,
+            dots: false,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:5
+                }
+            }
+        });
+    </script>
+</body>
+</html>

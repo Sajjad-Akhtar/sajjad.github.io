@@ -1,0 +1,68 @@
+.strip p{
+    font-size: 12px;
+}
+#top-sale .owl-carousel .item .product a{
+    overflow: hidden;
+}
+#top-sale .owl-carousel .item .product img{
+    transition: transform .5s ease;
+}
+#top-sale .owl-carousel .item .product img:hover{
+    transform: scale(1.1);
+}
+
+.owl-carousel .owl-nav button{
+    position: absolute;
+    top: 30%;
+    outline: none;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    left: 0;
+}
+.owl-carousel .owl-nav button.owl-prev span{
+    font-size: 35px;
+    color: #003859;
+    margin-left: -4rem;
+    padding: 0 1rem;
+}
+
+.owl-carousel .owl-nav button.owl-next{
+    right: 0;
+}
+.owl-carousel .owl-nav button.owl-next span{
+    font-size: 35px;
+    color: #003859;
+    margin-right: -4rem;
+    padding: 0 1rem;
+}
+
+.owl-dots .owl-dot:focus{
+    box-shadow: none;
+    outline: 0;
+    border: 0;
+}
+.dropdown-item:hover{
+    background-color: #00A5C4;
+    color: white;
+}
+#footer .fab,.fas{
+    font-size: 20px;
+}
+#footer .fab:hover,.fas:hover{
+    transform: scale(1.2);
+}
+
+@media screen and (min-width: 2px) {
+    .strip .hide p
+    {
+      display: none;
+    }
+}
+@media screen and (min-width: 900px) {
+    .strip .hide p
+    {
+      display: block;
+    }
+}
+
+

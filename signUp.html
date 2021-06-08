@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+
+    <!--FavIcon-->
+    <link rel="shortcut icon" href="images/Favicon/favicon1.ico" type="image/x-icon">
+
+    <!--Bootstrap Link-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!--Font Awesome Link-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Mate+SC&family=Vollkorn:ital@1&display=swap" rel="stylesheet">
+
+    <!--CSS Link-->
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #00A5C4;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Mobile Shop</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav m-auto" style="font-family: 'Rubik', sans-serif;">
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="index.html"><i class="fa fa-home mr-2"></i>Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blogs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="About.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+                <form action="" style="font-size: 14px; font-family: 'Raleway', sans-serif;">
+                    <a href="#" class="py-2 rounded-pill" style="background-color: #003859;">
+                        <span class="px-2 text-white" style="font-size: 16px;"><i class="fas fa-shopping-cart"></i></span>
+                        <span class="px-3 py-2 rounded-pill text-dark bg-light">0</span>
+                    </a>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <div class="container">
+        <div class="myCard">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="myLeftCtn">
+                        <form action="" class="myForm text-center">
+                            <header>Create New Account</header>
+                            <div class="form-group">
+                                <i class="fas fa-user"></i>
+                                <input type="text" class="myInput" id="username" placeholder="Username" required>
+                                <div class="invalid-feedback">
+                                    Please Fill out this field
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <i class="fas fa-envelope"></i>
+                                <input type="email" name="" id="email" placeholder="abc@gmail.com" class="myInput" required>
+                            </div>
+                            <div class="form-group">
+                                <i class="fas fa-lock"></i>
+                                <input type="password" name="" id="password" placeholder="******" class="myInput" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="">
+                                    <input type="checkbox" id="check_1" name="check_1" required><small> I read and Agree to <a href="https://www.termsandconditionsgenerator.com/live.php?token=fdcDdXub7oo7i8wGv4pQDO70NazbyyGt">Terms and Conditions</a></small>
+                                    <div class="invalid-feedback">You must Check the Box</div>
+                                </label>
+                            </div>
+                            <input type="submit" value="Create Account" class="butt">
+                            <p style="font-family: 'Vollkorn', serif;" class="mt-2">Already have an Account? <a href="newLogin.html">Login here</a></p>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="myRightCtn">
+                        <div class="box">
+                            <h3 class="text-center text-dark">Online Mobile Store</h3>
+                            <!-- <p class="text-center " style="font-family: 'Mate SC', serif; font-size: 20px; font-weight: bold;">Widest Choice and Best Offers Guaranteed</p> -->
+                            <img src="images/products/New folder/16.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
